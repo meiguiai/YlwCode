@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
- s.name         = "YlwCode"
+  s.name         = "YlwCode"
   s.version      = "0.0.2"
   s.platform     = :ios, '8.0'
   s.summary      = "Lianlian login sdk with Swift Language"
@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "ylw" => "ylw" }
   s.source       = { :git => "https://github.com/meiguiai/YlwCode.git", :tag => "#{s.version}" }
-  s.source_files  = "TestFramework/TestFramework/*"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.source_files  = 'YlwCode/APP/*.{swift}'
+  s.source_files = "TestFramework/TestFramework/**/*.{m,swift}"
+  s.frameworks = "Foundation"
 end
