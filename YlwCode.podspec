@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/meiguiai/YlwCode"
   s.license      = "MIT"
   s.author             = { "ylw" => "ylw" }
-  s.source       = { :git => "https://github.com/meiguiai/YlwCode.git", :tag => "#{s.version}" }
-  s.source_files  = "TestFramework/TestFramework/*"
+  s.source       = { :git => "http://172.16.200.99:8080/tfs/iOS/_git/LLY.iOS.Infrastructures"}
+  s.source_files  = "YlwCode/TestFramework/TestFramework/*.swift"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 end
