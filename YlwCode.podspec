@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "ylw" => "ylw" }
   s.source       = { :git => "http://172.16.200.99:8080/tfs/iOS/_git/LLY.iOS.Infrastructures", :branch => "master"}
-  s.source_files  = "YlwCode/TestFramework/TestFramework/*.swift"
+  s.source_files  = "YlwCode/TestFramework/*.swift"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 end
