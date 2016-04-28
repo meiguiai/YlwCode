@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class Card2: NSObject {
+public class Card: NSObject {
    public var cardNumber:String?
    public var validDate:String?
     
